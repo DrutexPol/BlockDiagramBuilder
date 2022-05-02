@@ -1,0 +1,646 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Edycja.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 148</value>
+  </data>
+  <data name="&gt;&gt;File.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="diamondButton.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADkAAAA5CAYAAACMGIOFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAAR5JREFUaEPt2s0JwzAMQOFs0RV66PwdoSt0jy7QWuAHIRDyJ8uyqgdGt+CP3ISn
+        LMuyLMsy6+7lPOsMmcDe5XzrDAedAz91hoLOga9yHnWGgS6Bt3IkmSGga0AaHroFpGGhe4E0HPQokIaB
+        ngWSe+hVILmFagHJHVQbSG6grYDUHdoaSN2gVkAyh1oDyQzaC0jNob2B1AzqBUjqUG9AUoN6BZIKVLZq
+        8gHZycjKwmNyL3ZGct/D/cWflLxC1YDkDaoOJC/QZkDqDW0OpF5QMyBZQ82BZAXtBqTW0O5AagV1AyRt
+        qDsgaUHdAukq1D2QzkKHAdJR6HBA2gsdFkhb0OGBtAYNA6QlNNzrD5pDQ77joTk0JJAEFvptXZadbpp+
+        74PwiSxcvfgAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Magiczne Bloczki</value>
+  </data>
+  <data name="newScheme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 29</value>
+  </data>
+  <data name="&gt;&gt;startButton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tableLayoutPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;endButton.Name" xml:space="preserve">
+    <value>endButton</value>
+  </data>
+  <data name="engButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 88</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pictureBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>15, 15, 15, 15</value>
+  </data>
+  <data name="&gt;&gt;rectangleButton.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="richTextBox1.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;richTextBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;deleteButton.Name" xml:space="preserve">
+    <value>deleteButton</value>
+  </data>
+  <data name="File.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="loadSeheme.Text" xml:space="preserve">
+    <value>Wczytaj Schemat</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;engButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;File.Name" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="&gt;&gt;plButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Jezyk.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Edycja.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;newScheme.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Jezyk.Text" xml:space="preserve">
+    <value>Język</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="conectButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 57</value>
+  </data>
+  <data name="tableLayoutPanel1.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>200, 0</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="endButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 57</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>800, 600</value>
+  </data>
+  <data name="newScheme.Text" xml:space="preserve">
+    <value>Nowy Schemat</value>
+  </data>
+  <data name="&gt;&gt;deleteButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="richTextBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>188, 242</value>
+  </data>
+  <data name="&gt;&gt;plButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Edycja.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="startButton.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADkAAAA5CAYAAACMGIOFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAAe5JREFUaEPtmc1RwzAQhd2AzQxnGuFM7BkKoBAaoRAK8Tl2CxQS9KRdWfHPQKyV
+        ZMJ+MxoTOUj7tE9rJakURVEURVEURVH+Po/D69PD2L4159NHM3R9PZy+mqG9zBv663P7iYb34/9oiGOC
+        ACFqS9AtjUXT0OVBMHNh7nXXN2P3Xo8vz1iAtSz5jON9Rlg4hmtdX1Qsgg/FsfViLWcXbSG4gNgwCIhL
+        FYAVHC6kmZdupcPuO9iQJoXN6FZSMI+f08wf65ZNMDCvKq7JJtogy/yTbbqeuorATkI81CXDtAfLCmR8
+        RqX2KDa/E9heclt0C8TBMYkUPV9oMhWZ38KLH23bMIvUdSi8bc0zm7puh/dilufTDtzZ2CTBXKnrdtiq
+        Ir5PADJokxBjWbtKptHLQxIdo4o8CNExilSvhEzVP+KQIlK9EiJS/UWqV0JcFgWqP1v2aI+R6eOXwHk6
+        PPXc7dkVeO8fxLZ8SBE/ibFtRewRgReYYsFhERaKa27rZpvf7QX66IV2b9/xhPAeRcOqpqq8GJezZ+eS
+        3oM/4apukFUKIlawtaUZ50qc+bvoqWtNrA0M2TY2w/01e6HPCsKBw9px+ZtJSpfsAsGENt7brFBzjMyy
+        72JAgCx6br2FILjAiNrKuKIoiqIoiqL8H6rqG30CN1M/fY+/AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="&gt;&gt;startButton.Parent" xml:space="preserve">
+    <value>Edycja</value>
+  </data>
+  <data name="conectButton.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADkAAAA5CAYAAACMGIOFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAA8BJREFUaEPtmkuoTVEchy9h4BGFYqQUiUIxICSvPEYmRhIK5TWQiUchSQYMKJHM
+        ZSQDGTDyGkgmFHnmEaUQJZLX99VZtVrde+xzkvs/7F99nXPW2me3195r/V9rd9WqVatWrf9UE2EKTIWZ
+        MBgGwT+jpXAUnsMDuAUXYDWMh47XbrgM3+AF3IE38BQewVWYDh2rg/ATvsNxWAszYDasAQf/A16CU7nj
+        tA8coKyCUZBrCPQHp63HPIYJ0DHaBWmA62xoogFwCTz2IoyE8NoOaYCbbaggn+pNuAvelIEQVlsgDXCb
+        DRWlO9kEGqTzENYQrYc0wB02tKhZcB9ew1wbomkO6A4c4F4b2tA4cG2+h3k2RNIwcB061U7Y0Ka0vrfh
+        ISy0IZKGg0bDC1wBY2Fog6rqB4vBc3guzxlK3nWduSGbU/YK6Pt0/q04eGeBs8FZ4ewIpSNgyPYVkuGR
+        j+DAJ8Pv5Dr2P94k13cobYB8YCWGbGdgBPQkLXE6XgsdSsae+YASPr389zWYBH2hlL40HaePDaWVkA8k
+        4drcCteztg9g/ljKaCgd4zoMJS1ourice43PGw387nR9AtMgl6Fb+p9xbigth3RxOa4rMwgzibLvLBh0
+        9wF9oRlJ6jNTCaVlYF6YD0D2QNI5yPs+w2mYD+aSupV0DnPNUFoEXyAfgOyHpJNQ9utW3oLVAKsCuhoT
+        ZasFoWSwrM8rB3AIko5B2a/B0bJaz7Guo9W1zmO9p1dVVtQWwDsoB2AAkOT3st+n5xQ1hfI8ns/zev5e
+        VVlR01p2N0V9akk+zbLfpx4yVSorag7S7+UAXHdJrsey35vi+g2nsqK2EU7BJ8gH4O8UcGtR8z7x/1rg
+        cCoraqNBn6ZvywfwqvGpH+xuDYo+NJx6qqgZnRilGK3YZ4im4XA6p+NLjILCqVlFTWuo+U/9DtLs4EDW
+        lmMcG07NKmpmCmYM+rd8IM+K3wkzkXCqUlEz9zMHTNO1JLUfhnBqpaJmNq+/LCMdnbxoaf+JipruQpdi
+        vca6jTXRnaAPDV9RsypmdayKUtVtDJgmLYHQFTXvvhdY7i61otAVNdePlWkr1Faq21HoipoyYHaPwXXl
+        nkOrCl1RS3KXyN0ip5q7R6ZAVRW6opbL/T5DN/f/NBruB1ZR6IpadzLwdifXC3ZtusPbTKEras2UV9T0
+        f+7Zl081fEWtinTyFoENz8wsjD99G8O3MsJX1FqRhsj3Z3QHvk+jQQpfUWtHvgnlG1FO23AVtT8p320L
+        V1GrVatWrVp/T11dvwBGzYjxr3Y5PAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="&gt;&gt;diamondButton.Name" xml:space="preserve">
+    <value>diamondButton</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;diamondButton.Parent" xml:space="preserve">
+    <value>Edycja</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>782, 753</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Tekst bloku</value>
+  </data>
+  <data name="Jezyk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 608</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;diamondButton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;richTextBox1.Name" xml:space="preserve">
+    <value>richTextBox1</value>
+  </data>
+  <data name="richTextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Jezyk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 136</value>
+  </data>
+  <data name="&gt;&gt;newScheme.Name" xml:space="preserve">
+    <value>newScheme</value>
+  </data>
+  <data name="&gt;&gt;loadSeheme.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;endButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 268</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="conectButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 40</value>
+  </data>
+  <data name="tableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="File" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Edycja" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Jezyk" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="groupBox1" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Absolute,145,Absolute,186,Percent,100,Absolute,148" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;engButton.Name" xml:space="preserve">
+    <value>engButton</value>
+  </data>
+  <data name="&gt;&gt;engButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="richTextBox1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="loadSeheme.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 96</value>
+  </data>
+  <data name="startButton.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="endButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 103</value>
+  </data>
+  <data name="diamondButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 57</value>
+  </data>
+  <data name="saveScheme.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 61</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>982, 753</value>
+  </data>
+  <data name="startButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 40</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;endButton.Parent" xml:space="preserve">
+    <value>Edycja</value>
+  </data>
+  <data name="richTextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 23</value>
+  </data>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="deleteButton.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADkAAAA5CAYAAACMGIOFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAAilJREFUaEPtmNttwzAMRTNIF+kgHaSLdJAOkkX62x1aHSAEiAsyjh+SEoMHuD+W
+        LfKKlOzkUhRFURRFMYKPpp+mv5u+b9dOA2bMnOo0Rj+bIoOIsVPw8ibfmt6bSParib12bWL/mSJzkex+
+        nmcexLy0NDGGQvA1yR8pM98dVjpKYJSI350yOUBl8ihs80cJ9BYH3pCDx8PRzhHPUc8K/zZFya0RczAX
+        ryTmJQavqumQUJTwHjHnU8AK99yjzD29iplB9g5tTIJLSVrLZ/ucGNOIWhRze1Yew9HX1JTWZeU1kSNP
+        vaiqxByKJsHqe0goS+rRSmtFh7YtSfrgyP9K8FXWNvN7eIkozp6tsAqtorap36tq0j/nE+Z9SOV0Lq2m
+        jndDTWpb+jFk6EGFMcNf9+Z9V6BhLaur61sV/BgyMpP3zGvL6t7vhg+KlGz8CJNoCEtBs/EtJsGPoSEs
+        Bc3Gy6TTS5jUg8lOyzLpVCa5MIKloGXS6aVMmgnjFCYzE8aRJvlk9GPMPQT9y0M/0HXcvm23mNQP9Gm/
+        QnR115oEq76a0FjDTNJ+PjDyLbvFJGhHaKsi3RpdUSO+mj45XfmsYhF2bzZXd3SvaBKMa2WM7LqHuXT+
+        R547HG0/xOpbe26BdtQKImJNQ9vWRCVY+SXDmELcG5lDxJgKCWZGjxBzDz1s7hG17l5NbdEMWi46MNaK
+        6k05ZNZAe2EWZfvMi3swxv1P05pFUfTicvkHdfI2WsMQZMcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="saveScheme.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel1.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>200, 0</value>
+  </data>
+  <data name="rectangleButton.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Edycja.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;conectButton.Parent" xml:space="preserve">
+    <value>Edycja</value>
+  </data>
+  <data name="loadSeheme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 29</value>
+  </data>
+  <data name="Edycja.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="diamondButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 103</value>
+  </data>
+  <data name="&gt;&gt;Edycja.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Jezyk.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>582, 553</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 334</value>
+  </data>
+  <data name="groupBox1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="loadSeheme.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;plButton.Name" xml:space="preserve">
+    <value>plButton</value>
+  </data>
+  <data name="&gt;&gt;File.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;engButton.Parent" xml:space="preserve">
+    <value>Jezyk</value>
+  </data>
+  <data name="&gt;&gt;deleteButton.Parent" xml:space="preserve">
+    <value>Edycja</value>
+  </data>
+  <data name="engButton.Text" xml:space="preserve">
+    <value>Angielski</value>
+  </data>
+  <data name="&gt;&gt;newScheme.Parent" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="endButton.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADkAAAA5CAYAAACMGIOFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAAeFJREFUaEPtmeFthDAMhdmj138swSAdhEU6SAdhEX5eO8OdH3pGrlErQRxIK3+S
+        pVMA+73ESeldlyRJkiRJkiRJkvwZvl76QWK8v/bvn7d+kpglHi4wNt1v/Yfc+4bg4+0CkRDsjOwONc20
+        bQBBIs6v1IxVlGujBFb1xttXMIZnEZyczWrLtZG3XwPEOWEzRElsDO2BedHi1uy5KwsTri1hLlyEN4ua
+        vFQXGIQpFq5izkOzdkKLOuVXJPmAIiw2VS3mQC3UZO06RllkNcjh00Ftaog3avbgZQYVNRq6R2XG1j1R
+        pU12YrsK2jhcRnjCAMzEzxw6jkn24FAzwCB0icaBQ8fQvYi3Fw41A9+Ly7VJkmWTt9SqClYQ2iTKWpZJ
+        mmtVJURfmmyAKJMxJ1gFzMlf9oISdoJVYNVW+uYTdoJVgLpiTn4YDEsWhGnVmMm3CeVzK++ucauo/Pv/
+        QgBnb2nbK42qQWip0lXeaJUiP8Da1mC9P2nO6CmHEWqYmuedC2aP6qqGm3Xm9Evncw8+ilCjIWZhQmKU
+        XKs5fC7NWwxFWbOLMM788g25xGYFMCZhfzOxxpYceJa3twEEuTY+FDo5TNsuEGlM41T0q4TA2IRVlHuX
+        30z4eJIkSZIkSZJ8p+ueNiM4/UyhEwEAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="plButton.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;newScheme.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="endButton.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="engButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 41</value>
+  </data>
+  <data name="deleteButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 103</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rectangleButton.Parent" xml:space="preserve">
+    <value>Edycja</value>
+  </data>
+  <data name="&gt;&gt;saveScheme.Parent" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="&gt;&gt;endButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="File.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;plButton.Parent" xml:space="preserve">
+    <value>Jezyk</value>
+  </data>
+  <data name="startButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 57</value>
+  </data>
+  <data name="&gt;&gt;Jezyk.Name" xml:space="preserve">
+    <value>Jezyk</value>
+  </data>
+  <data name="&gt;&gt;saveScheme.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="conectButton.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="plButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 39</value>
+  </data>
+  <data name="panel1.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="File.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 139</value>
+  </data>
+  <data name="saveScheme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 29</value>
+  </data>
+  <data name="&gt;&gt;Jezyk.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="plButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 43</value>
+  </data>
+  <data name="&gt;&gt;rectangleButton.Name" xml:space="preserve">
+    <value>rectangleButton</value>
+  </data>
+  <data name="rectangleButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 40</value>
+  </data>
+  <data name="&gt;&gt;saveScheme.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 753</value>
+  </data>
+  <data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="&gt;&gt;richTextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="newScheme.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;saveScheme.Name" xml:space="preserve">
+    <value>saveScheme</value>
+  </data>
+  <data name="&gt;&gt;conectButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="deleteButton.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="rectangleButton.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADkAAAA5CAYAAACMGIOFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAAGdJREFUaEPtz0EKgDAAA8H+/9N68laEUCVVZiDXwA4AAPiJ4wNbNjvdbcseO3qB
+        yITIMpEJkWUiEyLLRCZElolMiCwTmRBZJjIhskxkQmSZyITIMpEJkWUiE9fRzls2O91tAAB3xjgBlYIi
+        7LU5oUcAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="tableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;diamondButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;startButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Name" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="tableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>782, 0</value>
+  </data>
+  <data name="plButton.Text" xml:space="preserve">
+    <value>Polski</value>
+  </data>
+  <data name="diamondButton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;conectButton.Name" xml:space="preserve">
+    <value>conectButton</value>
+  </data>
+  <data name="&gt;&gt;richTextBox1.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;loadSeheme.Name" xml:space="preserve">
+    <value>loadSeheme</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 20</value>
+  </data>
+  <data name="Edycja.Text" xml:space="preserve">
+    <value>Edycja</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;startButton.Name" xml:space="preserve">
+    <value>startButton</value>
+  </data>
+  <data name="&gt;&gt;Jezyk.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;loadSeheme.Parent" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="newScheme.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 26</value>
+  </data>
+  <data name="&gt;&gt;deleteButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Edycja.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 180</value>
+  </data>
+  <data name="&gt;&gt;File.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;rectangleButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="engButton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rectangleButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 57</value>
+  </data>
+  <data name="&gt;&gt;Edycja.Name" xml:space="preserve">
+    <value>Edycja</value>
+  </data>
+  <data name="saveScheme.Text" xml:space="preserve">
+    <value>Zapisz Schemat</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="deleteButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 57</value>
+  </data>
+  <data name="panel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;conectButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;loadSeheme.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, System.Private.CoreLib, Culture=neutral, PublicKeyToken=7cec85d7bea7798e">
+    <value>en-US</value>
+  </metadata>
+</root>
